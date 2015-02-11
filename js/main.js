@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 var context = new AudioContext();
-var url = 'https://my.notjustok.com/track/download/id/9498';
+var url = 'http://anything2mp3.com/system/temporary/mp3/Becky%20G%20-%20Can%27t%20Stop%20Dancing%20%28Audio%29_soundcloud_172763951.mp3?download=1';
 var audio = new Audio(url);
 
 // Overkill - if we've got Web Audio API, surely we've got requestAnimationFrame. Surely?...
@@ -51,7 +51,7 @@ audio.addEventListener("canplay", function() {
 	//console.log(analyser.fftSize); // 2048 by default
 	//console.log(analyser.frequencyBinCount); // will give us 1024 data points
 
-	analyser.fftSize = 64*4;
+	analyser.fftSize = 64;
 	//console.log(analyser.frequencyBinCount); // fftSize/2 = 32 data points
 
 	audio.play();
@@ -77,7 +77,6 @@ function update() {
 update();
 
 $('button#stop').on('click', function(){
-	myBubblelow.animateJump();
 	audio.pause();
 })
 
