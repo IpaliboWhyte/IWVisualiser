@@ -51,7 +51,7 @@ audio.addEventListener("canplay", function() {
 	//console.log(analyser.fftSize); // 2048 by default
 	//console.log(analyser.frequencyBinCount); // will give us 1024 data points
 
-	analyser.fftSize = 64;
+	analyser.fftSize = 128;
 	//console.log(analyser.frequencyBinCount); // fftSize/2 = 32 data points
 
 	audio.play();
@@ -69,6 +69,7 @@ function update() {
     $('.smallcircle').each(function (index, bar) {
     	//console.log(frequencyData[index]);
         //bar.style.height = frequencyData[index] + 'px';
+        console.log(frequencyData[index]);
     	$(bar).css({'top': '-'+frequencyData[index]+'px', 'height': frequencyData[index]/7, 'width': frequencyData[index]/7, 'border-radius': frequencyData[index]/14});
     });
 };

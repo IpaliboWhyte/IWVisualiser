@@ -21,6 +21,7 @@ textarea {
 html,body {
     height: 100%;
     width: 100%;
+font-family: 'Raleway', sans-serif;
 }
 
 /*
@@ -98,7 +99,7 @@ textarea {
    ========================================================================== */
 
 .containerBigBox{
-    width: 1000px;
+    width: 1400px;
     height: 400px;
     position: absolute;
     top:0;
@@ -205,9 +206,31 @@ textarea {
     background-color: #015367;
 }
 
+button{
+    background: rgba(203,232,107, 1);
+    box-shadow: 0px 3px 1px rgb(180,206,93);
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+}
 
+button:hover{
+    background: rgba(203,232,107, 0.6);
+}
 
+button:active{
+    box-shadow: 0px 2px 1px rgb(180,206,93);
+}
 
+.header{
+    padding-top: 50px; 
+    padding-left: 100px;
+    color: rgba(203,232,107, 1);
+    font-size: 20px;
+    font-weight: bold;
+}
 
 
 
