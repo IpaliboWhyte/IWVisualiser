@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 var context = new AudioContext();
-var url = 'http://anything2mp3.com/system/temporary/mp3/Becky%20G%20-%20Can%27t%20Stop%20Dancing%20%28Audio%29_soundcloud_172763951.mp3?download=1';
+var url = "http://d1.sharebeast.com/d/wnvnaqe3wsqy72oiib5d6eg26csaop2pxwww7znbmx3u4dgyazsvfotl/Becky%20G%20-%20Can't%20Stop%20Dancing.mp3";
 var audio = new Audio(url);
 
 // Overkill - if we've got Web Audio API, surely we've got requestAnimationFrame. Surely?...
