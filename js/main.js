@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 var context = new AudioContext();
-var url = "http://d1.sharebeast.com/d/wnvnaqe3wsqy72oiib5d6eg26csaop2pxwww7znbmx3u4dgyazsvfotl/Becky%20G%20-%20Can't%20Stop%20Dancing.mp3";
+var url = "https://cf-media.sndcdn.com/ytZhThaRcOAv.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20veXRaaFRoYVJjT0F2LjEyOC5tcDMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE0Mjg0MDUzNTZ9fX1dfQ__&Signature=mOUOYDpd4G9sMKWPho~TY6nVvLeU43DTbw0xAeMaE67UIZVyPj~prELZiwafftLXihdK9d2fUAcflPj5HNY5cPOcCeQur4qMjCpvHD5ue3YjULSsasYKaGj3HDT~0nh9xxaNOL5q4Mx2N-a5Q5UU5HxKZ6-D0aklLb-WFtz2kgsmPPYqAqhsPdV7bRNRRY9yVbzLd4XtbXpMizXAF7jRhx9FyV362Keitn8Axl-ElaV1eI7lqTK~5wa25RmKX1fo5iOEWwnIHPPN6kGE0HIEKyI4D~UhDe7-EFV~eeDapBGmq-N-QiaaQNPIFCg2J7KH0H~RyJGzTPwmXaqjc9ww4g__&Key-Pair-Id=APKAJAGZ7VMH2PFPW6UQ";
 var audio = new Audio(url);
 
 // Overkill - if we've got Web Audio API, surely we've got requestAnimationFrame. Surely?...
