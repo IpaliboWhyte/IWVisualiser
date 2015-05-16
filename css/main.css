@@ -206,7 +206,7 @@ textarea {
     background-color: #015367;
 }
 
-button{
+button#stop{
     background: rgba(203,232,107, 1);
     box-shadow: 0px 3px 1px rgb(180,206,93);
     border: none;
@@ -216,11 +216,11 @@ button{
     outline: none;
 }
 
-button:hover{
+button#stop:hover{
     background: rgba(203,232,107, 0.6);
 }
 
-button:active{
+button#stop:active{
     box-shadow: 0px 2px 1px rgb(180,206,93);
 }
 
